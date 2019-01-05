@@ -40,5 +40,4 @@ def play(board)
   while (play_board => 9) do
   turn(board)
   play_board ++
-  end  
 end
