@@ -3,7 +3,8 @@
 require_relative "../lib/play"
 
 #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-board = Array.new(9, "A")
+board = Array.new
+board = (9, "   ")
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 
