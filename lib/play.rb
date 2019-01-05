@@ -40,5 +40,5 @@ def play(board)
   while play_board => 9
   turn(board)
   play_board ++
-    
+  end  
 end
